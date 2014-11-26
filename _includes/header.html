@@ -1,23 +1,68 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Domino's Pizza Kenya</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<section class="mobile-menu hide-medium">
+  <ul class="">
+    {% for nav in site.data.navigation %}
+      <li>
+        <a href="{{ nav.url | prepend: site.baseurl }}">
+          {{ nav.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+<header class="header {{ page.navurl }}">
+  <div class="row limit">
+    <div class="pull-left">
+      <a href="{{ site.baseurl }}"><img src="{{ "/images/logo.png" | prepend: site.baseurl }}" alt="" width="46" class="logo-name"></a>
+      <a href="{{ site.baseurl }}"><img src="{{ "/images/logo-noname.png" | prepend: site.baseurl }}" alt="" width="36" class="logo-noname"></a>
+    </div>
+    <div class="pull-right">
+      <div class="hide-medium">
+        <span class="fa fa-bars menu-control" id="menu_control"></span>
+      </div>
+      <ul class="horz-list menu hide-small">
+        {% for nav in site.data.navigation %}
+          {% if nav.title == page.navname %}
+            <li class="active">
+          {% else %}
+            <li>
+          {% endif %}
+            <a href="{{site.baseurl}}{{ nav.url }}">
+              {{ nav.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <script type="text/javascript" src="http://fast.fonts.net/jsapi/1c1fcd10-82a9-4f1c-8191-184938ae1516.js"></script>
-        <link rel="stylesheet" href="css/global.css">
+  </div>
+</header>
+<header class="features-menu-scroll">
+    <a href="#reporting" class="features-item bg-yellow">
+      <div class="two columns preserve">
+        <figure><img src="{{ "/images/phone-icon.png" | prepend: site.baseurl }}" alt="" width="41px"></figure>
+      </div>
+      <div class="ten columns preserve">
+        <h4>Reporting App</h4>
         
-    </head>
-    <body>
-        <header class="main-header">
-            <div class="logo ">
-                <img src="images/logo.png" height="27" width="178" alt="">
-            </div>
-        </header>
+      </div>
+    </a>
+    <a href="#invest" class="features-item bg-green">
+      <div class="three columns preserve">
+        <figure><img src="{{ "/images/computer-icon.png" | prepend: site.baseurl }}" alt="" width="41px"></figure>
+      </div>
+      <div class="nine columns preserve">
+        <h4>Investigation Dashboard</h4>
+        
+      </div>
+    </a>
+    <a href="#story" class="features-item bg-red">
+      <div class="two columns preserve">
+        <figure><img src="{{ "/images/mega-icon.png" | prepend: site.baseurl }}" alt="" width="41px"></figure>
+      </div>
+      <div class="ten columns preserve">
+        <h4>Storytelling Tool</h4>
+        
+      </div>
+    </a>
+</header>
+

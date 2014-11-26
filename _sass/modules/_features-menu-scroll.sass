@@ -1,0 +1,28 @@
+.features-menu-scroll
+  display: none
+
+
+@media all and (min-width: $break-medium)
+  .features-item
+    width: 33%
+  .features-menu-scroll
+    display: block
+    position: fixed
+    @include clearfix
+    margin-top: 50px
+    width: 100%
+    z-index: 9
+    @include transform(translateY(-200px))
+    @include transition(all .25s ease-in)
+    &.is-active
+      @include transform(translateY(0px))
+
+    .features-item
+      padding: 1em
+      color: white
+      float: left
+      position: relative
+      height: 91px
+      overflow: hidden
+      &:nth-of-type(1), &:nth-of-type(3)
+        margin-top: 0

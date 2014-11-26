@@ -1,0 +1,14 @@
+.static-module
+  float: none
+  width: 100%
+  @extend .module
+  figure img
+    border: none
+@media all and (min-width: $break-medium)
+  .static-module
+    float: left
+  .eight-cols-module
+    width: 65%
+    margin-right: 5%
+  .four-cols-module
+    width: 30%
