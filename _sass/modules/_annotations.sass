@@ -1,23 +1,33 @@
-.annotation-container
-  position: relative
 .annotation
-  position: absolute
+  position: relative
   padding: 1em
   background: white
   border: 1px solid
   border-left: 10px solid
   max-width: 250px
-  top: 0
+  margin: 0 auto 1.5em
 .annotation-reporting
   border-color: $yellow
   color: $yellow
   p
     color: $yellow
-.annotation-top-left
-  margin: 5em 0 0 -7em
-.annotation-top-right
-  right: 0
-  margin: 2em -9em 0 0
-.annotation-middle-right
-  right: 0
-  margin: 20em -5em 0 0
+.annotation-container
+  position: relative
+  img
+    width: 80%
+    margin: 0 auto
+
+@media all and (min-width: $break-medium)
+  .annotation-container
+    position: relative
+  .annotation
+    position: absolute
+    top: 0
+  .annotation-top-left
+    margin: 5em 0 0 -7em
+  .annotation-top-right
+    right: 0
+    margin: 2em -9em 0 0
+  .annotation-middle-right
+    right: 0
+    margin: 20em -5em 0 0

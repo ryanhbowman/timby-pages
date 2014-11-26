@@ -1,7 +1,7 @@
 # Site settings
-title: Domino's Kenya
+title: Timby
 email: ryan@circle.co.ke
-description: Domino's Pizza - Kenya
+description: Timby
 baseurl: "/timby-pages" # the subpath of your site, e.g. /blog/
 # url: "http://www.dominos.co.ke" # the base hostname & protocol for your site
 twitter_username: circlekenya
