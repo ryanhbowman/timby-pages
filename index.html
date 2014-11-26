@@ -1,58 +1,114 @@
 ---
 layout: default
+navname: Home
+navurl: home
 ---
-        <div class="relative">
-          <div class="main-image-container">
-              <img src="images/hero.jpg" alt="" class="main-image">
-              
-          </div>
-          <div class="main-image-overlay">
-            <img src="images/now-open.png">
-          </div>
-        </div>
-        <article class="main-content">
-          <div class="home-page page-padding">
-              <div class="row">
-                <div class="five columns">
-                  <div class="branch-card text-center">
-                        <div class="branch-card-container">
-                          <div class="space-item">
-                            <h1 class="no-margin">Poopy Tower!!!</h1>
-                            <h4 class="text-light hel">Woodvale Grove • Westlands</h4>
-                          </div>
-                          <div class="row">
-                            <div class="eight columns preserve">
-                              <a href="tel:0730165000" class="btn btn-full-width"><span class="fa fa-phone-square"></span> 0730 165 000</a>
-                            </div>
-                            <div class="four columns preserve">
-                              <a href="https://goo.gl/maps/BX2XY" class="btn  btn-full-width">Map</a>
-                            </div>
-                          </div>
-                          
-                        </div>
-                    </div>
-                </div>
-                <div class="five columns">
-                  <div class="branch-card text-center">
-                      <div class="branch-card-container">
-                        <div class="space-item">
-                          <h1 class="no-margin">UN</h1>
-                          <h4 class="text-light hel">Limuru Road • Gigiri</h4>
-                        </div>
-                        <div class="row">
-                          <!-- <div class="eight columns preserve"><a href="tel:0730165000" class="btn btn-full-width"><span class="fa fa-phone"></span> 0730 165 000</a></div> -->
-                          <div class="twelve columns preserve"><a href="" class="btn  btn-full-width">Map</a></div>
-                        </div>
-                      </div>
+
+<header class="page-header page-header__home clearfix">
+      <div class="hero">
+        <div class="hero-container">
+          <img src="{{base_url}}images/home-bg.jpg" alt="" style="height: 100%; position: relative;">
+          <div class="hero-words">
+            <div class="row limit">
+              <div class="hero-text">
+                <h1 class="bold">The slow burn, not the spark</h1>
+                <p class="big space-group">TIMBY is a suite of interconnected digital tools that help teams tackle complex, slow-moving problems with unparalleled speed and security</p>
+                <figure class="six columns shift-three space-group">
+                  <img src="{{base_url}}images/home-icons.png" alt="">
+                </figure>
+                <div>
+                  <div class="eight columns shift-two">
+                    <input type="text" class="input-small pull-left input-with-button__input" placeholder="Sign up for launch information">
+                    <input type="submit" value="Sign Up" class="btn btn-red pull-left input-with-button__button">
                   </div>
-                </div>
-                <div class="two columns">
-                  <a href="images/Dominos-Menu-2014.jpg" class="menu-link">
-                    <span class="fa fa-file-text"></span>
-                    Download 
-                      Menu
-                  </a>
                 </div>
               </div>
             </div>
-          </article>
+          </div>
+          
+        </div>
+      </div>
+    </header>
+      
+    <article class="site-content">
+
+      <section class="module row clearfix">
+        <div class="row limit">
+          <div class="seven columns">
+            <h4 class="text-red bold">Problem</h4>
+            <h1 class="text-red">Complex problems need long-term solutions</h1>
+            <p class="big">The modern world is rife with gradual plagues – complex, long-term issues like climate change or bureaucratic corruption that periodically flare up into war, disaster, revolution. These big flames and loud booms are easy to see, almost impossible to ignore. But how do we do a better job of understanding the build up to and the aftermath of these moments? How do we get to the root of these chronic problems?</p>
+          </div>
+          <div class="five columns">
+            <figure>
+              <img src="{{base_url}}images/flag.jpg" alt="" >
+            </figure>
+          </div>
+        </div>
+        <div class="row">
+          <figure>
+              <img src="{{base_url}}images/long-disaster.jpg" alt="" >
+            </figure>
+        </div>
+      </section>
+
+      <section class="module row">
+        <div class="row limit space-group">
+            <h4 class="text-green bold">Solution</h4>
+            <h1 class="text-green">TIMBY is built to help motivated teams solve big, slow-burn problems over long periods of time</h1>
+            <div class="row clearfix">
+              <!-- <div class="eight columns"> -->
+                <p class="big">What progress we see in these issues we owe to the most-affected – local communities and organizations that work around the clock to keep difficult problems in their sights. Timby exists to support these teams by offering three distinct digital tools.</p>
+              <!-- </div> -->
+              
+            </div>
+        </div>
+        <div class="row limit">
+          <div class="six shift-three columns big-space-group">
+                <a href="" class="btn btn-big btn-red btn-full-width">Learn more about the tools</a>
+              </div>
+        </div>
+        <div class="row limit">
+          
+          <div class="four columns padded">
+            <figure class="space-group">
+              <img src="{{base_url}}images/reporting-front.jpg" alt="" >
+            </figure>
+            <h3 class="no-margin text-green bold">Reporting App</h3>
+            <p>Simple, safe and systematic reporting from anywhere in the world</p>
+          </div>
+          <div class="four columns padded">
+            
+            <figure class="space-group">
+              <img src="{{base_url}}images/dashboard-front.jpg" alt="" >
+            </figure>
+            <h3 class="no-margin text-green bold">Investigation Dashboard</h3>
+            <p>Help teams to find connections between events that happen across time and space</p>
+          </div>
+          <div class="four columns padded">
+            <figure class="space-group">
+              <img src="{{base_url}}images/story-front.jpg" alt="" >
+            </figure>
+            <h3 class="no-margin text-green bold">Storytelling Tool</h3>
+            <p>Share your story with the world in your voice with your reports</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="module module-gray module-special row">
+        <div class="row limit">
+          <div class="six columns">
+            <h4 class="text-yellow bold">In use</h4>
+            <h1 class="text-yellow">TIMBY is being tested by groups across Africa</h1>
+            <p class="big space-group">In Liberia, a renowned activist group uses TIMBY to monitor extractive industries and the spread of Ebola. In Nairobi, a newspaper group has transformed TIMBY into a citizen-reporting tool. In South Africa, groups are building market-based mechanisms to reward users for their contributions in elections reporting. We built TIMBY in close collaboration with its users. Now they are testing and expanding it in so it gets better for everyone.</p>
+            <a href="" class="btn btn-big btn-red">Read our Case Studies</a>
+          </div>
+          <div class="six columns">
+            <figure>
+              <img src="{{base_url}}images/africa-map.png" alt="" >
+            </figure>
+          </div>
+        </div>
+      </section>
+    </article>
+
