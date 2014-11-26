@@ -1,118 +1,98 @@
-.modal-open, .modal-close
+.modal-open
   overflow: hidden
-  cursor: pointer
 
 .modal
-  display: none
-  position: fixed
-  top: 30px
-  right: 30px
-  bottom: 30px
-  left: 30px
+  // display: none
+  // overflow: auto
+  // overflow-y: scroll
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
   z-index: 1050
-  max-width: 1400px
-  min-width: 600px
-  min-height: 400px
-  max-height: 1000px
   -webkit-overflow-scrolling: touch
   outline: 0
-  box-sizing: border-box
-  margin: 0 auto
+  &.fade .modal-dialog
+    -webkit-transform: translate(0, -25%)
+    -ms-transform: translate(0, -25%)
+    transform: translate(0, -25%)
+    -webkit-transition: -webkit-transform 0.3s ease-out
+    -moz-transition: -moz-transform 0.3s ease-out
+    -o-transition: -o-transform 0.3s ease-out
+    transition: transform 0.3s ease-out
+  &.in .modal-dialog
+    -webkit-transform: translate(0, 0)
+    -ms-transform: translate(0, 0)
+    transform: translate(0, 0)
+
+.modal-dialog
+  position: absolute
+  width: auto
+  margin: 10px
+
 .modal-content
   position: relative
-  width: 100%
-  height: 100%
   background-color: #ffffff
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5)
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5)
+  border: 1px solid $gray
   background-clip: padding-box
   outline: none
 
 .modal-backdrop
-  display: none
   position: fixed
   top: 0
   right: 0
   bottom: 0
   left: 0
   z-index: 1040
-  background-color: rgba(0,0,0,.65)
+  background-color: #fff
   &.fade
     opacity: 0
     filter: alpha(opacity = 0)
   &.in
-    opacity: 0.5
-    filter: alpha(opacity = 50)
+    opacity: 0.7
+    filter: alpha(opacity = 70)
 
 .modal-header
-  h2
-    margin-bottom: 0
-  padding: 1.5em
-  border-bottom: 1px solid $med-gray
-  background: $light-gray
-.modal-close
-  position: absolute
-  right: 0
-  top: 0
-  font-size: 36px
-  color: $med-gray
-  top: 22px
-  right: 22px
+  padding: 1.5em 1.5em 0 1.5em
+  text-align: center
+  position: relative
+  margin-top: -2.1em
+  .close
+    margin-top: -2px
+
+.modal-title
+  margin: 0
+  line-height: 1.42857143
 
 .modal-body
-  position: absolute
-  height: auto
-  width: auto
-  left: 0
-  right: 0
-  bottom: 72px
-  top: 85px
-  overflow: auto
-  .modal-image
-    display: block
-    text-align: center
-    margin: 0 auto
-    // @extend %vertical-align
-  &.has-header
-    top: 186px
-  &.has-no-footer
-    bottom: 0
-
-.modal-action-bar
-  background: $light-gray
+  position: relative
+  padding: 1.5em
   @include clearfix
-  padding: 1.5em
-
-.modal-body
-  article
-    padding: 1.5em
-    @include clearfix
 
 .modal-footer
-  padding: 1.5em
+  // margin-top: 15px
+  padding: 19px 20px 20px
+  text-align: right
   background: $light-gray
-  @include clearfix
-  position: absolute
-  bottom: 0
-  height: 72px
-  width: 100%
+  .btn + .btn
+    margin-left: 5px
+    margin-bottom: 0
+  .btn-group .btn + .btn
+    margin-left: -1px
+  .btn-block + .btn-block
+    margin-left: 0
 
-.modal-crop-control
-  position: absolute
-  top: 0
-  left: 0
-  bottom: 0
-  width: 250px
-  background: $light-gray
-  padding: 1.5em
-.modal-crop-body
-  position: absolute
-  top: 0
-  left: 250px
-  padding: 1.5em
-  right: 0
-  bottom: 0
-  overflow: auto
+@media (min-width: 768px)
+  .modal-dialog
+    width: 500px
+    margin: 30px auto
+  .modal-sm
+    width: 300px
+  .modal-lg
+    width: 725px
 
-.modal-body-container
-  padding: 1.5em
+
+@media (min-width: 992px)
+  .modal-lg
+    width: 725px

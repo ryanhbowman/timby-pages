@@ -1,13 +1,6 @@
-.limit
-  max-width: 68em
-  margin: 0 auto
-  padding: 0 1.5em
-.limit-small
-  max-width: 58em
-  margin: 0 auto
-  padding: 0 1.5em
-.columns.padded
-  padding: 0 1em
+.menu.preserve, .menu-sidebar.preserve
+  @include span-columns(12)
+  float: none
 .one.preserve
   @include span-columns(1)
 .two.preserve
@@ -19,7 +12,7 @@
 .five.preserve
   @include span-columns(5)
 .six.preserve
-  @include span-columns(6)
+  @include span-columns(5 of 10)
 .seven.preserve
   @include span-columns(7)
 .eight.preserve
@@ -38,13 +31,10 @@
   @include shift(2)
 .shift-three.preserve
   @include shift(3)
-.shift-four.preserve
-  @include shift(3)
-@media all and (min-width: $break-medium)
-  .columns.padded
-    padding: 0 3em
-.columns
-@media all and (min-width: $break-medium)
+@media all and (min-width: $break-smallish)
+  .menu, .menu-sidebar
+    @include span-columns(12)
+    float: none
   .one
     @include span-columns(1)
   .two
@@ -56,7 +46,7 @@
   .five
     @include span-columns(5)
   .six
-    @include span-columns(6)
+    @include span-columns(5 of 10)
   .seven
     @include span-columns(7)
   .eight
@@ -75,14 +65,24 @@
     @include shift(2)
   .shift-three
     @include shift(3)
-  .shift-four
-    @include shift(3)
-
+@media all and (min-width: $break-medium)
+  .menu
+    @include span-columns(9)
+  .menu-sidebar
+    @include span-columns(3)
+.columns
+  margin-bottom: 1.5em
+.columns.preserve
+  margin-bottom: 0
+.columns > .columns
+  margin-bottom: 0
 .row
   @include row
   .four:nth-of-type(2n+3)
     margin-right: 0
-  // .six:nth-of-type(2n+2)
-  //   margin-right: 0
+  .six:nth-of-type(2n+2)
+    margin-right: 0
+
+@media all and (min-width: $break-medium)
   .columns
-    margin-bottom: 1.5em
+    margin-bottom: 0

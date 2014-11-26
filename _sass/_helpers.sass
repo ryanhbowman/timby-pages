@@ -6,44 +6,49 @@
   @include clearfix
 a, a:link, a:visited
   text-decoration: none
-  color: inherit
-.big-push-down
-  margin-top: 3em
-
+  // color: inherit
+.blue
+  color: $blue
+.no-margin
+  margin: 0
+.margin-right
+  margin-right: 1em
+.push
+  margin-top: .5em
+.push-small
+  margin-top: .25em
+.x-small
+  font-size: .5em
+.block-center
+  margin: 0 auto
+  display: block
+.margin-side
+  margin: 0 1em
 
 @media all and (min-width: $break-big)
-  .hide-big
+  .hide-desktop
     display: none
+
+.hide-mobile
+  display: none
 
 @media all and (min-width: $break-medium)
-  .hide-medium
-    display: none
-  .hide-small
-    display: block !important
-
-.hide-small
-  display: none
+  .hide-mobile
+    display: block
 
 .text-center
   text-align: center
-.no-margin
-  margin-bottom: 0 !important
-.uppercase
-  text-transform: uppercase
-.small-space-group
-  margin-bottom: 1em !important
+.text-light
+  color: $gray
+
 .space-group
-  margin-bottom: 1.5em !important
-.big-space-group
-  margin-bottom: 4em !important
-.bg-blue
-  background: $blue
-.bg-yellow
-  background: $yellow
-.bg-green
-  background: $green
-.bg-red
-  background: $red
+  margin-bottom: 1.5em 
+.space-item
+  margin-bottom: 1em !important
+
+figure
+  img
+    max-width: 100%
 
 %vertical-align
   position: relative
@@ -55,4 +60,3 @@ a, a:link, a:visited
 figure
   img
     width: 100%
-    display: block

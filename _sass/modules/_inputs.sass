@@ -1,10 +1,14 @@
-input[type="text"], input[type="search"], input[type="date"], input[type="password"]
+input[type="text"], input[type="search"], input[type="date"], input[type="password"], input[type="email"]
+
   box-shadow: none
   border: 1px solid $med-gray
   padding: 1em
   border-radius: 2px
   @include box-sizing(border-box)
   background-image: none
+  display: block
+  &.input-fill
+    @include fill-parent
   &.input-small
     padding: .75em 1em
     font-size: .875em
@@ -12,34 +16,20 @@ input[type="text"], input[type="search"], input[type="date"], input[type="passwo
     padding: .4em .70em
   -webkit-appearance: none
 
-
+.input-fill
+  width: 100%
 \::-webkit-input-placeholder
   font-weight: 100
+  font-family: helvetica, sans-serif
 \:-moz-placeholder
   font-weight: 100
+  font-family: helvetica, sans-serif
 \::-moz-placeholder
   font-weight: 100
+  font-family: helvetica, sans-serif
 \:-ms-input-placeholder
   font-weight: 100
-
-.input-with-button__input, .input-with-button__button
-  float: left
-.input-with-button__button
-  width: 40%
-.input-with-button__input
-  width: 60%
-@media all and (min-width: $break-medium)
-  .input-with-button__button
-    width: 30%
-  .input-with-button__input
-    width: 70%
-
-
-.filters, .l-group, .results, .filters-area
-  input[type="text"], input[type="search"], input[type="date"], input[type="password"], select
-    @include fill-parent
-input[type="submit"]
-  @include appearance(none)
+  font-family: helvetica, sans-serif
 
 input[type="text"].h3-input
   @include fill-parent
@@ -61,8 +51,6 @@ input[type="text"].h4-input
 .checkbox-label
   display: block
   margin-bottom: 1em
-.input-full-width
-  width: 100%
 
 select, .select
   @include appearance(none)
@@ -75,13 +63,13 @@ select, .select
   background-position: 97% center
   font-weight: 100
   &.input-small
-    padding: .75em 1em
+    padding: .5em 1em
     font-size: .875em
   &:hover
     background-color: $med-gray
     color: white
     cursor: pointer
-  &.input-full-width
+  &.full-width
     width: 100%
 
 .select
@@ -89,8 +77,9 @@ select, .select
   @include fill-parent
   color: $med-gray
 
-label
-  font-weight: 700
+label, .input-label
+  display: block
+  @extend %trade
   p
     font-weight: 100
     color: $med-gray
