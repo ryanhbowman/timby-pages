@@ -1,4 +1,9 @@
 $( document ).ready(function() {
+ $('.various').fancybox({
+    openEffect  : 'none',
+    closeEffect : 'none'
+  });
+    
   $('#menu_control').click(function(event) {
       $('.mobile-menu').toggleClass('active-menu');
       $('#menu_control').toggleClass('active');
