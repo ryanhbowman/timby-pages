@@ -5,20 +5,20 @@ navurl: blog
 ---
 
 <header class="page-header page-header__blog clearfix">
-  <div class="hero">
-    <div class="hero-container">
-      <!-- <img src="{{base_url}}images/home-bg.jpg" alt="" style="height: 100%; position: relative;"> -->
-      <div class="hero-words">
-        <div class="row limit">
-          <div class="hero-text">
-            <h1 class="bold">Timby Blog</h1>
-            <p class="big space-group">TIMBY is a suite of interconnected digital tools that help teams tackle complex, slow-moving problems.</p>
-          </div>
-        </div>
-      </div>
+  <div class="hero-text">
+    <div class="row limit">
+      <h1 class="bold">Follow along as TIMBY grows</h1>
+      <p class="big space-group">TIMBY is moving fast, follow this blog for all the lastest news.</p>
     </div>
   </div>
 </header>
 <section>
-  hello
+  <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{site.baseurl}}/{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
 </section>

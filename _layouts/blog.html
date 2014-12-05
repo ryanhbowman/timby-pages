@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    
+      <header class="page-header page-header__blog clearfix">
+        <div class="hero-text">
+          <div class="row limit">
+            <h1 class="bold">{{ page.title }}</h1>
+            <p class="big ">{{ page.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+            <p>{{ page.date | date_to_long_string }}</p>
+          </div>
+        </div>
+      </header>
+    <div class="row limit">
+      <section class="eight columns shift-two module">
+         {{ content }}
+      </section>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
