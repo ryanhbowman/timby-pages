@@ -10,15 +10,16 @@
       <header class="page-header page-header__blog clearfix">
         <div class="hero-text">
           <div class="row limit">
+            <h5 class="text-offwhite">{{ page.date | date_to_long_string }}</h5>
             <h1 class="bold">{{ page.title }}</h1>
-            <p class="big ">{{ page.excerpt | remove: '<p>' | remove: '</p>' }}</p>
-            <p>{{ page.date | date_to_long_string }}</p>
+            <p class="big space-group">{{ page.summary }}</p>
+            <a href="{{site.baseurl}}/blog" class="btn btn-yellow">Back to Blog</a>
           </div>
         </div>
       </header>
     <div class="row limit">
-      <section class="eight columns shift-two module">
-         {{ content }}
+      <section class="eight columns shift-two module blog-text">
+        {{ content }}
       </section>
     </div>
 

@@ -17,6 +17,7 @@
     "bourbon": "~4.0.2",
     "neat": "~1.6.0",
     "jquery": "~2.1.1",
-    "font-awesome": "~4.2.0"
+    "font-awesome": "~4.2.0",
+    "fancybox": "~2.1.5"
   }
 }

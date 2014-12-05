@@ -1,9 +1,10 @@
 ---
 layout: blog
-main-title: Hello title
+section: blog
+summary: Timby is on the ground in Liberia, here is how we are trying to help.
 ---
 
-There is a lot of confusion as to what’s been happening on the ground in Liberia in terms of Ebola. You can check out our twitter feed @logsofwar for a selection of the international reporting.
+![Ebola]({{ site.baseurl }}/images/ebola.jpg) There is a lot of confusion as to what’s been happening on the ground in Liberia in terms of Ebola. You can check out our twitter feed @logsofwar for a selection of the international reporting.
 
 To do our bit, we’ve added a reporting sector for Ebola on to our TIMBY app in Liberia. Our team is now documenting how Ebola has changed their lives and their work, from neighbours affected, area quarantines, prevention practices and even food prices.
 

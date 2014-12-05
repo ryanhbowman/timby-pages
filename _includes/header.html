@@ -21,15 +21,16 @@
       </div>
       <ul class="horz-list menu hide-small">
         {% for nav in site.data.navigation %}
-          {% if nav.title == page.navname %}
+          {% if nav.title == page.navname or nav.title == page.section %}
             <li class="active">
           {% else %}
             <li>
           {% endif %}
-            <a href="{{site.baseurl}}/{{ nav.url }}">
-              {{ nav.title }}
-            </a>
-          </li>
+            
+              <a href="{{site.baseurl}}/{{ nav.url }}">
+                {{ nav.title }}
+              </a>
+            </li>
         {% endfor %}
       </ul>
     </div>
