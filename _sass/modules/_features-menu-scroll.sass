@@ -1,10 +1,54 @@
 .features-menu-scroll
   display: none
 
+.features-menu-scroll
+  .features-item.bg-yellow
+    background: #F5CD99
+    .triangle
+      @include transform(translateY(-10em))
+    &.is-happening
+      background: $yellow
+      .triangle
+        @include triangle(1.5em, $yellow, down)
+        @include transform(translateY(0em))
+        display: block
+    &:hover
+      background: $yellow
+  .features-item.bg-red
+    background: #E8A48E
+    .triangle
+      @include transform(translateY(-10em))
+    &.is-happening
+      background: $red
+      .triangle
+        @include triangle(1.5em, $red, down)
+        @include transform(translateY(0em))
+        display: block
+    &:hover
+      background: $red
+  .features-item.bg-green
+    background: #8EC3BA
+    .triangle
+      @include transform(translateY(-10em))
+    &.is-happening
+      background: $green
+      .triangle
+        @include triangle(1.5em, $green, down)
+        @include transform(translateY(0em))
+        display: block
+    &:hover
+      background: $green
+
+.triangle
+  position: absolute
+  bottom: -.7em
+  left: 50%
+  margin-left: -.75em
+  @include transition(all .35s ease-in)
 
 @media all and (min-width: $break-medium)
   .features-item
-    width: 33%
+    width: 33.333%
   .features-menu-scroll
     display: block
     position: fixed
@@ -22,7 +66,9 @@
       color: white
       float: left
       position: relative
-      height: 91px
-      overflow: hidden
+      height: 80px
+      // overflow: hidden
       &:nth-of-type(1), &:nth-of-type(3)
         margin-top: 0
+      img
+        width: 80% !important
