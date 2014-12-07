@@ -20,7 +20,7 @@ navurl: blog
           {{ post.title }}
         </h2>
         <p class="text-red">{{ post.date | date_to_long_string  }}</p>
-        <p class="no-margin">{{ page.summary }}</p>
+        <p class="no-margin">{{ post.summary }}</p>
       </a>
       {% endfor %}
   </div>
