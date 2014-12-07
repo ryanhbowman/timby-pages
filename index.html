@@ -18,7 +18,10 @@ navurl: home
                 </figure>
                 <div>
                   <div class="eight columns shift-two">
-                    <input type="text" class="input-small pull-left input-with-button__input" placeholder="Sign up for launch information">
+                    <form action="https://getsimpleform.com/messages?form_api_token=ec5a49ff766436e4624cbc13287b271a" method="post">
+                    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                    <input type='hidden' name='redirect_to' value='http://ryanhbowman.github.io/timby-pages/thanks.html' />
+                    <input type="text" name="emailtop" class="input-small pull-left input-with-button__input" placeholder="Sign up for launch information">
                     <input type="submit" value="Sign Up" class="btn btn-red pull-left input-with-button__button">
                   </div>
                 </div>
