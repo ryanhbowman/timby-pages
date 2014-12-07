@@ -1,7 +1,7 @@
 ---
 layout: blog
 section: blog
-summary:  We pitched TIMBY (and it’s accompanying film project Logs of War (@logsofwar) at the Good Pitch New York.
+summary:  We pitched TIMBY and the accompanying film project Logs of War at the Good Pitch New York.
 ---
 
 We pitched TIMBY (and it’s accompanying film project Logs of War (@logsofwar) at the [Good Pitch New York](https://goodpitch.org/events/gpny2014)!
