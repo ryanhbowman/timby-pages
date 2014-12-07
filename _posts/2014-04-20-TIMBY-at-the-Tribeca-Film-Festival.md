@@ -1,7 +1,7 @@
 ---
 layout: blog
 section: blog
-summary:  We presented TIMBY at [The Tribeca Film Institute’s Interactive Day.
+summary:  We presented TIMBY at The Tribeca Film Institute’s Interactive Day.
 ---
 
 
