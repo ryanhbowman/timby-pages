@@ -1,71 +1,99 @@
     <footer>
-      <div class="module module-green module-small">
+      <section class="module module-gray row">
         <div class="row limit">
-          <div class="two columns hide-small">
-            <div class="six columns">
-              <figure>
-                <img src="{{ "/images/logo-noname.png" | prepend: site.baseurl }}" alt="">
-              </figure>
-            </div>
+            <h3 class="text-gray text-center">Our supporters</h3>
+        </div>
+        <div class="row limit space-group">
+          <div class="three">
+            <figure>
+              <img src="{{base_url}}images/anic.png" alt="" >
+            </figure>
           </div>
-          <div class="five columns">
-            <div class="small-space-group bold">Stay up to date with the TIMBY world, leave your email.</div>
-            <div class="clearfix">
+          <div class="three">
+            <figure>
+              <img src="{{base_url}}images/ami.png" alt="" >
+            </figure>
+          </div>
+          <div class="three">
+            <figure>
+              <img src="{{base_url}}images/mavc.png" alt="" >
+            </figure>
+          </div>
+          <div class="three">
+            <figure>
+              <img src="{{base_url}}images/tfi.png" alt="" >
+            </figure>
+          </div>
+          
+        </div>
+        <div class="row limit">
+          <div class="three">
+            <figure>
+              <img src="{{base_url}}images/ford.png" alt="" >
+            </figure>
+          </div>
+          <div class="three">
+            <figure>
+              <img src="{{base_url}}images/internews.png" alt="" >
+            </figure>
+          </div>
+          <div class="three">
+            <figure>
+              <img src="{{base_url}}images/cfa.png" alt="" >
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section class="module module-gray row">
+        <div class="row limit">
+            <h3 class="text-gray text-center">Get in Touch</h3>
+        </div>
+        <div class="row limit">
+          <div class="four shift-two columns">
+            <div class="clearfix" style="margin-top: 10px">
                 <form action="https://getsimpleform.com/messages?form_api_token=ec5a49ff766436e4624cbc13287b271a" method="post">
                     <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
                     <input type='hidden' name='redirect_to' value='http://ryanhbowman.github.io/timby-pages/thanks.html' />
-                <input type="text" class="input-small input-with-button__input pull-left" placeholder="Email Address">
-                <input type="submit" value="Submit" class="btn btn-red pull-left input-with-button__button">
+                    <input type="text" name="emailtop" class="input-small pull-left input-with-button__input" placeholder="Sign up for launch information">
+                    <input type="submit" value="Sign Up" class="btn btn-red pull-left input-with-button__button">
             </div>
           </div>
-          <div class="four columns">
-              <div class="four columns no-margin preserve">
-                <a href="https://www.facebook.com/timby">
-                  <span class="fa-stack fa-3x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x  text-green"></i>
-                  </span>
-                </a>
-              </div>
-              <div class="four columns no-margin preserve">
-                <a href="https://www.twitter.com/">
-                  <span class="fa-stack fa-3x">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x  text-green"></i>
-                  </span>
-                </a>
-              </div>
-              <div class="four columns">
-                <ul class="text-list text-center bold uppercase">
-                  <li><a href="">Features</a></li>
-                  <li><a href="">Case Studies</a></li>
-                  <li><a href="">About</a></li>
-                  <li><a href="">Blog</a></li>
-                </ul>
-              </div>
+          <div class="one columns">
+            <a href="https://www.facebook.com/timby">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x text-lightwhite"></i>
+              </span>
+            </a>
+          </div>
+          <div class="one columns">
+            <a href="https://www.facebook.com/timby">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x text-lightwhite"></i>
+              </span>
+            </a>
+          </div>
+          <div class="one columns">
+            <a href="https://www.facebook.com/timby">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-vimeo-square fa-stack-1x text-lightwhite"></i>
+              </span>
+            </a>
+          </div>
+          <div class="one columns">
+            <a href="https://www.facebook.com/timby">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-instagram fa-stack-1x text-lightwhite"></i>
+              </span>
+            </a>
           </div>
         </div>
-      </div>
-      <div class="row funders">
-        <div class="funder-label"><span>Proudly</span> <span>Supported</span> <span>By</span></div>
-        <div class="funder-logos">
-          <div class="funder-logo">
-            <figure>
-              <img src="{{ "/images/logo-ami.jpg" | prepend: site.baseurl }}" alt="">
-            </figure>
-          </div>
-          <div class="funder-logo">
-            <figure>
-              <img src="{{ "/images/logo-tribeca.jpg" | prepend: site.baseurl }}" alt="">
-            </figure>
-          </div>
-          <div class="funder-logo">
-            <figure>
-              <img src="{{ "/images/logo-mavc.jpg" | prepend: site.baseurl }}" alt="">
-            </figure>
-          </div>
-        </div>
-      </div>
+      </section>
+
+      
     </footer>
 
 <!-- Jquery, Slick and app.js  -->
