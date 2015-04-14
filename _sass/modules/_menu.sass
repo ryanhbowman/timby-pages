@@ -16,7 +16,7 @@
     width: 30px
   &.is-active
     padding-top: 0
-    height: 50px
+    height: 55px
     background: white
     border-bottom: 1px solid $med-gray
     .menu-control
@@ -36,17 +36,17 @@
       @include transform(translateY(10px))
     .menu
       a
-        color: $dark-gray
-        text-transform: capitalize
+        color: $blue
       a:hover
-        color: $light-white
-        background: $dark-gray
+        color: white
+        background: $blue
       li.active a
         color: $light-white !important
         background: $green
 @media all and (min-width: $break-medium)
   .header.is-active
-    height: auto
+    // height: auto
+    background: $light-gray
   .header .logo-noname
     width: 36px
 
@@ -60,7 +60,8 @@
     padding: .5em .75em
     border-radius: 2px
     font-size: 14px
-    text-transform: capitalize
+    text-transform: uppercase
+    letter-spacing: .5px
   a:hover
     background: white
     color: $dark-gray
@@ -79,7 +80,7 @@
   bottom: 0
   left: 0
   right: 0
-  background: $green
+  background: $blue
   // &.features
   //   background: $blue
   // &.case-studies

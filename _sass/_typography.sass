@@ -1,24 +1,44 @@
 body
-  font-family: apercu-light, helvetica, sans-serif
+  font-family: 'aktiv-grotesk-std', 'Gotham SSm A', 'Gotham SSm B'
+  font-weight: 300
+  font-style: normal
   font-size: 18px
-  line-height: 26px
-h1,h2,h3,h4,h5,h6
+  line-height: 22px
+  letter-spacing: .2px
+h1,h2,h3,h5,h6
+  font-family: 'Didot 42 A', 'Didot 42 B'
+  font-weight: 700
   &.bold
-    font-family: apercu-bold, helvetica, sans-serif
-    font-weight: 100
+    font-family: 'Didot 42 A', 'Didot 42 B'
+    font-weight: 700
+
+.hero-text
+  h1.bold
+    font-family: 'Didot 42 A', 'Didot 42 B'
+    font-weight: 400
+    // font-style: italic
+    text-align: left
+    font-size: 100px
+    line-height: .9em
+  p.big
+    text-align: left
+    font-size: 21px
+
 h1
   font-size: 34px
   line-height: 44px
   font-weight: 100
   margin-top: 0
   margin-bottom: .25em
+  
 p
-  font-size: 16px
+  font-size: 14px
   line-height: 24px
   color: $gray
   margin: 0 0 1.5em 0
-  &:last-of-type
-    margin-bottom: 0
+  font-family: 'aktiv-grotesk-std'
+  font-weight: 300
+  letter-spacing: .1px
   &.big
     font-size: 18px
     line-height: 26px
@@ -37,10 +57,13 @@ h4
   text-transform: uppercase
   display: inline-block
   margin-bottom: .5em
+  font-family: 'aktiv-grotesk-std'
+  &.bold
+    font-weight: 700
 h5
   font-size: 24px
   line-height: 28px
-  font-family: apercu-bold, helvetica, sans-serif
+  font-weight: 700
   margin-bottom: .25em
   margin-top: 0
 @media all and (min-width: $break-medium)
@@ -50,10 +73,10 @@ h5
     &:last-of-type
       margin-bottom: 0
     &.big
-      font-size: 26px
-      line-height: 39px
+      font-size: 20px
+      line-height: 32px
   h1
-    font-size: 50px
+    font-size: 62px
     line-height: 62px
     margin-top: 0
     margin-bottom: .25em
@@ -75,6 +98,18 @@ h2
 .text-yellow
   color: $yellow
   border-color: $yellow
+.text-blue
+  color: $blue
+  border-color: $blue
+.text-white
+  color: white
+  border-color: white
+.text-lightwhite
+  color: $light-white
+  border-color: $light-white
+.text-darkgray
+  color: $gray
+  border-color: $gray
 p
   a, a:link, a:visited
     color: $black
@@ -116,3 +151,14 @@ blockquote
     h2
       text-align: left !important
       text-transform: none !important
+  // p
+  //   font-size: 16px
+  //   line-height: 24px
+  // h1
+  //   font-size: 3em
+  //   margin-bottom: .5em
+  //   line-height: 1em
+  // blockquote
+  //   float: left
+  //   width: 44%
+  //   margin: 0 2em 2em 0

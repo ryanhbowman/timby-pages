@@ -2,8 +2,10 @@
   padding: 1.5em 0
   &:first-of-type
     padding-top: 3em
-  &:last-of-type
-    padding-bottom: 3em
+  // &:last-of-type
+  //   padding-bottom: 3em
+  &.module-no-bottom
+    padding-bottom: 0
 .module-special
   padding-top: 3em
 .module-gray
@@ -11,13 +13,17 @@
 .module-green
   background: $green
   color: white
+.module-blue
+  background: $blue
+  color: white
+
 @media all and (min-width: $break-medium)
   .module
     padding: 3em 0
     &:first-of-type
       padding-top: 6em
-    &:last-of-type
-      padding-bottom: 6em
+    // &:last-of-type
+    //   padding-bottom: 6em
   .module-small
     padding: 1.5em 0
   .module-special
