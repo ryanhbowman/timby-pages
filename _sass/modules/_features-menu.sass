@@ -1,25 +1,47 @@
-.features-menu
-  max-width: 68em
-  margin: 0 auto
-  @include clearfix
-  position: relative
+// .features-menu
+//   max-width: 68em
+//   margin: 0 auto
+//   @include clearfix
+//   position: relative
 
-  .features-item
-    padding: 1em
-    color: white
-    float: left
-    position: relative
-    
+.features-item h4
+  line-height: 1em
+  display: inline-block
+  margin-bottom: 4px
+  font-weight: 500
+  border-bottom: none
 
-    p
-      color: $light-white
-      margin-bottom: 0
 @media all and (min-width: $break-medium)
   .features-item
-    width: 33.333%
-    &:nth-of-type(1), &:nth-of-type(3)
-      margin-top: 2.8em
+    @include span-columns(9 of 30)
+    border-radius: 50%
+    margin-top: 2em
+    // @include shift(1)
+    &:nth-of-type(2)
+      @include span-columns(11 of 30)
+      margin-top: 0
+      // @include shift(1)
+
+  .box
+    position: relative
+    // width: 50%   /* desired width */
+    .content
+      position:  absolute
+      top: 0
+      left: 0
+      bottom: 0
+      right: 0
+      padding: 1.5em
+    img
+      width: 70%
+      margin: 0 auto
+      height: auto
+  .box:before
+    content: ""
+    display: block
+    padding-top: 100%  /* initial ratio of 1:1*/
   .features-menu
     margin-top: 0
+    margin-bottom: 2em
 
 

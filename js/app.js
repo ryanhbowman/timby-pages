@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
-  var gradualHeight = $('#gradual').innerHeight();
-  $('.side-box').height(gradualHeight);
+
+
 $('#reportinglink').click(function(e) {
   e.preventDefault();
   $('html,body').animate({scrollTop:$('#reporting').offset().top - 130});
@@ -28,6 +28,10 @@ $('#storylink').click(function(e) {
   if ($features.length > 0){
     $featuresHeight = $features.innerHeight();
   }
+
+  var gradualHeight = $('#gradual').innerHeight();
+  $('.side-box').height(gradualHeight);
+  
 });
 $(window).scroll(function(event) {
   $scrolled = $(window).scrollTop();
