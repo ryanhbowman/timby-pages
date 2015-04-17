@@ -5,8 +5,8 @@ navurl: blog
 ---
 
 <header class="page-header page-header__blog clearfix">
-  <div class="hero-text">
-    <div class="row limit">
+  <div class="row limit">
+    <div class="hero-text">
       <h1 class="bold">Follow along as TIMBY grows</h1>
       <p class="big space-group">TIMBY is moving fast, follow this blog for all the lastest news.</p>
     </div>
@@ -15,7 +15,7 @@ navurl: blog
 <section class="module">
   <div class="row limit">
     {% for post in site.posts %}
-      <a href="{{site.baseurl}}/{{ post.url }}" class="four columns blog-item">
+      <a href="{{site.baseurl}}{{ post.url }}" class="four columns blog-item">
         <h2>
           {{ post.title }}
         </h2>

@@ -10,8 +10,17 @@
   margin-bottom: 4px
   font-weight: 500
   border-bottom: none
+.features-menu
+  .features-item
+    padding: 1em
+    border-radius: 2px
+    img
+      width: 80%
+      margin: 0 auto
 
 @media all and (min-width: $break-medium)
+  .features-menu .features-item
+    border-radius: 50%
   .features-item
     @include span-columns(9 of 30)
     border-radius: 50%
@@ -31,7 +40,7 @@
       left: 0
       bottom: 0
       right: 0
-      padding: 1.5em
+      padding: 2em
     img
       width: 70%
       margin: 0 auto

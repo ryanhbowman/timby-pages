@@ -13,14 +13,27 @@
   position: relative
 .hero-text
   text-align: center
-  h1
+  h1.bold
     color: white
+    font-size: 45px
+    line-height: 1.1em
   p
     color: rgba(255,255,255,.8)
 @media all and (min-width: $break-medium)
   .page-header__home
     min-height: 550px
     max-height: 700px
+  .hero-text
+    h1.bold
+      font-family: 'Didot 42 A', 'Didot 42 B'
+      font-weight: 400
+      // font-style: italic
+      text-align: left
+      font-size: 100px
+      line-height: .9em
+    p.big
+      text-align: left
+      font-size: 21px
   .hero-text
     @include span-columns(8 16)
 

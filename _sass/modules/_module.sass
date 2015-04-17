@@ -37,3 +37,15 @@
   background: url(../images/side-gradual.jpg)
   width: 100%
   // position: absolute
+#gradual
+  margin-top: 1em
+.footer-social
+  @include span-columns(4 of 12)
+@media all and (min-width: $break-medium)
+  #gradual
+    padding: 2.5em
+    margin-top: 0
+  .footer-social
+    @include span-columns(1 of 12)
+    &:first-of-type
+      @include shift(2)
