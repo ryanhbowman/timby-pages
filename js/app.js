@@ -1,6 +1,12 @@
 $( document ).ready(function() {
 
 
+$('.slick-it').slick({
+  dots: true,
+  arrow: true,
+  autoplay: true,
+  autoplaySpeed: 3000
+});
 
 $('#reportinglink').click(function(e) {
   e.preventDefault();
@@ -19,7 +25,7 @@ $('#storylink').click(function(e) {
     openEffect  : 'none',
     closeEffect : 'none'
   });
-    
+
   $('#menu_control').click(function(event) {
       $('.mobile-menu').toggleClass('active-menu');
       $('#menu_control').toggleClass('active');
@@ -31,7 +37,7 @@ $('#storylink').click(function(e) {
 
   var gradualHeight = $('#gradual').innerHeight();
   $('.side-box').height(gradualHeight);
-  
+
 });
 $(window).scroll(function(event) {
   $scrolled = $(window).scrollTop();
@@ -42,10 +48,10 @@ $(window).scroll(function(event) {
   }
   //otherwise dont show that stuff
   else  {
-    $('.header').removeClass('is-active'); 
+    $('.header').removeClass('is-active');
   }
 
-  
+
   if ($('#reporting').length > 0){
     $reportingHeight = $('#reporting').innerHeight();
     $dashboardHeight = $('#dashboard').innerHeight();
@@ -73,7 +79,7 @@ $(window).scroll(function(event) {
   else {
     $('.features-menu-scroll').removeClass('is-active');
   }
-  
+
 });
 $( window ).resize(function() {
 var gradualHeight = $('#gradual').innerHeight();

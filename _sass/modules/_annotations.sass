@@ -24,15 +24,22 @@
 .annotation-container
   position: relative
   img
-    width: 80%
+    width: auto
+    max-height: 500px
     margin: 0 auto
 
 @media all and (min-width: $break-medium)
+  .annotation-left
+    left: 3em
+    top: 3em
+  .annotation-right
+    right: 3em
+    top: 4em
   .annotation-container
     position: relative
   .annotation
     position: absolute
-    top: 0
+    // top: 0
   .annotation-top-left
     margin: 5em 0 0 -7em
     &.annotation-dashboard
