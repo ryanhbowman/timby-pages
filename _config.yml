@@ -2,7 +2,7 @@
 title: Timby
 email: ryan@circle.co.ke
 description: TIMBY is a digital suite of tools created by a collective of filmmakers, developers, engineers and designers to help citizen journalists and activists report on long-term problems like climate change, poaching or corruption, and get those stories out to the world.
-# baseurl: "/timby-pages" # the subpath of your site, e.g. /blog/
+baseurl: "/timby-pages" # the subpath of your site, e.g. /blog/
 # url: "http://www.dominos.co.ke" # the base hostname & protocol for your site
 twitter_username: circlekenya
 github_username:  ryanhbowman
