@@ -13,19 +13,39 @@ navurl: blog
   </div>
 </header>
 <section class="module module-blog">
-  <div class="row limit">
-    {% for post in site.posts %}
 
-      <a href="{{site.baseurl}}{{ post.url }}" class="four columns blog-item">
-        <div class="space-group">
-          <img src="{{ post.photo | prepend: site.baseurl }}" alt="">
-        </div>
-        <h2>
-          {{ post.title }}
-        </h2>
-        <p class="text-red">{{ post.date | date_to_long_string  }}</p>
-        <p class="no-margin">{{ post.summary }}</p>
-      </a>
+    {% for post in site.posts %}
+      {% assign loopindex = forloop.index %}
+        {% if loopindex == 1 %}
+         <div class="row limit">
+          <a href="{{site.baseurl}}{{ post.url }}" class="row space-group blog-item">
+              <div class="seven ">
+                <img src="{{ post.photo | prepend: site.baseurl }}" alt="">
+              </div>
+              <div class="five ">
+                <h2 class="giant">
+                  {{ post.title }}
+                </h2>
+                <p class="text-red">{{ post.date | date_to_long_string  }}</p>
+                <p class="no-margin">{{ post.summary }}</p>
+              </div>
+          </a>
+         </div>
+         <div class="row limit">
+        {% endif %}
+        {% if loopindex != 1 %}
+          <a href="{{site.baseurl}}{{ post.url }}" class="four columns blog-item">
+            <div class="space-group">
+              <img src="{{ post.photo | prepend: site.baseurl }}" alt="">
+            </div>
+            <h2>
+              {{ post.title }}
+            </h2>
+            <p class="text-red">{{ post.date | date_to_long_string  }}</p>
+            <p class="no-margin">{{ post.summary }}</p>
+          </a>
+        {% endif %}
       {% endfor %}
+      </div>
   </div>
 </section>
