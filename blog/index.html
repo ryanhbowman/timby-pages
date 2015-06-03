@@ -7,15 +7,19 @@ navurl: blog
 <header class="page-header page-header__blog clearfix">
   <div class="row limit">
     <div class="hero-text">
-      <h1 class="bold">Follow along as TIMBY grows</h1>
-      <p class="big space-group">TIMBY is moving fast, follow this blog for all the lastest news.</p>
+      <h1 class="bold">TIMBY is moving fast</h1>
+      <p class="big space-group">Follow this blog for all the lastest news.</p>
     </div>
   </div>
 </header>
-<section class="module">
+<section class="module module-blog">
   <div class="row limit">
     {% for post in site.posts %}
+
       <a href="{{site.baseurl}}{{ post.url }}" class="four columns blog-item">
+        <div class="space-group">
+          <img src="{{ post.photo | prepend: site.baseurl }}" alt="">
+        </div>
         <h2>
           {{ post.title }}
         </h2>
