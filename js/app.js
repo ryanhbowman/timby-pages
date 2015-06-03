@@ -3,9 +3,9 @@ $( document ).ready(function() {
 
 $('.slick-it').slick({
   dots: true,
-  arrow: true,
-  autoplay: true,
-  autoplaySpeed: 3000
+  arrow: true
+  // autoplay: true,
+  // autoplaySpeed: 3000
 });
 
 $('#reportinglink').click(function(e) {
