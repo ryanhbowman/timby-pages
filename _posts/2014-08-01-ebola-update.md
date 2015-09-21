@@ -9,7 +9,7 @@ photo: /images/ebola3.jpg
 
 However, in the last two weeks, the situation has degraded rapidly. Schools and offices are closing, hospitals are turning away suspected cases and the dead are being left abandoned in the streets. [See this link](http://goo.gl/HSFoqA).
 
-![Ebola](https://s3-eu-west-1.amazonaws.com/timbyinfo/ebola.jpg)
+![Ebola](https://s3-eu-west-1.amazonaws.com/timbyinfo/goodpitch.jpg)
 
 The country has called the situation a national emergency and has started quarantining areas. In addition, several airlines have refused to land in Monrovia and neighbouring countries have closed their borders. The World Bank suggests the situation might take a few months to stabilize. [See this video](https://www.youtube.com/watch?v=lroXFQwMXsQ).
 
