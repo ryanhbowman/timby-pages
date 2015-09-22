@@ -5,6 +5,8 @@ summary:  TIMBY was at the Skoll World Forum 2015.
 photo: https://s3-eu-west-1.amazonaws.com/timbyinfo/skoll2+2.jpg
 ---
 
+![Skoll World Forum](https://s3-eu-west-1.amazonaws.com/timbyinfo/skoll2+2.jpg)
+
 Every April, over 1000 of the world’s most influential social entrepreneurs gather at Oxford University for the ![Skoll World Forum](https://skollworldforum.org/)
 
 This year TIMBY had the incredible opportunity to be part of the Sundance/Skoll Stories of Change team and work with some of the award-winning social entrepreneurs to tell their story. 
