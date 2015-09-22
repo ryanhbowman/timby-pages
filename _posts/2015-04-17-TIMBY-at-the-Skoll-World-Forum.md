@@ -1,7 +1,7 @@
 ---
 layout: blog
 section: blog
-summary:  Helping change data into stories at the Skoll World Forum.
+summary:  TIMBY was part of the Stories of Change program, helping change data into stories at the Skoll World Forum.
 photo: https://s3-eu-west-1.amazonaws.com/timbyinfo/skoll2+2.jpg
 ---
 
