@@ -9,7 +9,7 @@ Every April, over 1000 of the world’s most influential social entrepreneurs ga
 
 This year TIMBY had the incredible opportunity to be part of the Sundance/Skoll Stories of Change team and work with some of the award-winning social entrepreneurs to tell their story. 
 
-https://s3-eu-west-1.amazonaws.com/timbyinfo/16981812489_2b1bd8173f_o+(1).jpg
+(https://s3-eu-west-1.amazonaws.com/timbyinfo/16981812489_2b1bd8173f_o+(1).jpg)
 
 On the TIMBY team, we’re focused on moving beyond data and statistics, literally connecting dots to create narratives – so this type of collaboration is really what moves us.  
 
