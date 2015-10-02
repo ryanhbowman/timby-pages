@@ -1,7 +1,7 @@
 ---
 layout: blog
 section: blog
-summary:  TIMBY presented at the 16th International Anti-Corruption Conference in Malaysia.
+summary:  TIMBY presented as part of the technologies that can be used to combat illegal logging.
 photo: https://s3-eu-west-1.amazonaws.com/timbyinfo/California-Academy-of-Sciences.jpg
 ---
 
