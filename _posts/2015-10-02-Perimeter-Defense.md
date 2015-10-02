@@ -1,8 +1,8 @@
 ---
 layout: blog
 section: blog
-summary: Timby spoke at Perimeter Defense: Innovative Technologies for Detecting and Preventing Illegal Logging
-photo: 
+summary:  TIMBY presented at the 16th International Anti-Corruption Conference in Malaysia.
+photo: https://s3-eu-west-1.amazonaws.com/timbyinfo/IACCcrowds2.jpg
 ---
 
 Teams working at the intersection of forests and technology converged at the California Academy of Sciences last week for WRI’s [Perimeter Defense talks](http://www.wri.org/events/2015/09/perimeter-defense-innovative-technologies-detecting-and). The focus of the event was how tech can be used to detect and prevent illegal logging. It was a couple jam-packed days of drone technology, beautiful imagery and problem solving. 
