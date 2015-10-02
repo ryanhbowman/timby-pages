@@ -1,7 +1,7 @@
 ---
 layout: blog
 section: blog
-summary: TIMBY spoke at an event hosted by the World Resources Institute (WRI) called Perimeter Defense: Innovative Technologies for Detecting and Preventing Illegal Logging.
+summary:  TIMBY spoke at an event hosted by the World Resources Institute (WRI) called Perimeter Defense: Innovative Technologies for Detecting and Preventing Illegal Logging.
 photo: https://s3-eu-west-1.amazonaws.com/timbyinfo/California-Academy-of-Sciences.jpg
 ---
 
