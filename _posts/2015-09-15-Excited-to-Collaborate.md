@@ -1,7 +1,7 @@
 --- 
 layout: blog 
 section: blog 
-summary: Excited to Collaborate
+summary: TIMBY wants to hear from you.
 photo: https://s3-eu-west-1.amazonaws.com/timbyinfo/Collaboration+Invitation/picjumbo.com_HNCK7388.jpg
 ---
 
