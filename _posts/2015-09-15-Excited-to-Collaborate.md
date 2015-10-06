@@ -13,6 +13,7 @@ It’s been a long time coming but we’re finally taking on new projects! We’
 News travels fast and we are now in talks with governments, human rights groups and environmental teams from across Africa, South America, Asia and the Middle East.
  
 !(https://s3-eu-west-1.amazonaws.com/timbyinfo/Collaboration+Invitation/2015-05-Life-of-Pix-free-stock-photos-montain-iphone-arm-jordanmcqueen.jpg)
+
 *Photo courtesy of [lifeofpix.com](http://www.lifeofpix.com/).
 
 We’ve got tons of plans: other languages, a simpler icon-only based system, an iOS app, more security features, varied story-telling options, a gorgeous mapping experience and lots more.
