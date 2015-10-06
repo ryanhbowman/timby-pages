@@ -3,6 +3,7 @@ layout: blog
 section: blog 
 summary: Excited to Collaborate
 photo: https://s3-eu-west-1.amazonaws.com/timbyinfo/Collaboration+Invitation/picjumbo.com_HNCK7388.jpg
+
 ---
 
 
