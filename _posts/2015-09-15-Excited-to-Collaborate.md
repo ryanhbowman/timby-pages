@@ -3,12 +3,8 @@ layout: blog
 section: blog 
 summary: Excited to Collaborate
 photo: https://s3-eu-west-1.amazonaws.com/timbyinfo/Collaboration+Invitation/picjumbo.com_HNCK7388.jpg
-
 ---
 
-
-September 15, 2015
- 
 It’s been a long time coming but we’re finally taking on new projects! We’ve spent the last couple of years refining tools, weeding out bugs and doing a security overhaul.
  
 News travels fast and we are now in talks with governments, human rights groups and environmental teams from across Africa, South America, Asia and the Middle East.
