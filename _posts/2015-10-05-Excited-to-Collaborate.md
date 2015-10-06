@@ -2,7 +2,7 @@
 layout: blog 
 section: blog 
 summary: There are a few different ways to get involved in the coming months.
-photo: https://s3-eu-west-1.amazonaws.com/timbyinfo/Collaboration+Invitation/2015-05-Life-of-Pix-free-stock-photos-montain-iphone-arm-jordanmcqueen.jpg
+photo: https://s3-eu-west-1.amazonaws.com/timbyinfo/Collaboration+Invitation/picjumbo.com_HNCK7388.jpg
 ---
 
 It’s been a long time coming but we’re finally taking on new projects! We’ve spent the last couple of years refining tools, weeding out bugs and doing a security overhaul.
@@ -11,8 +11,10 @@ News travels fast and we are now in talks with governments, human rights groups 
 
 We’ve got tons of plans: other languages, a simpler icon-only based system, an iOS app, more security features, varied story-telling options, a gorgeous mapping experience and lots more.
 
+
 ![TIMBY](https://s3-eu-west-1.amazonaws.com/timbyinfo/Collaboration+Invitation/picjumbo.com_HNCK7388.jpg)
 *Photo courtesy of* [picjumbo.com](https://picjumbo.com/)
+
  
 We’d love for you to help us get there. If there’s something you think TIMBY can help you achieve – whether it’s monitoring abuse, the bug infestation at Burning Man, or addressing sexual violence on campus – drop us a line at info@timby.org. For more sensitive projects, please use the encryption key listed in the footer of our website.
  
@@ -22,6 +24,9 @@ We’ll pick a handful of excellent groups over the next 6-8 months to help us r
 **How to get involved**
  
 There are a few different ways to get involved in the coming months.
+
+![TIMBY](https://s3-eu-west-1.amazonaws.com/timbyinfo/Collaboration+Invitation/2015-05-Life-of-Pix-free-stock-photos-montain-iphone-arm-jordanmcqueen.jpg)
+*Photo courtesy of* [picjumbo.com](https://picjumbo.com/)
 
 Ultimately our mission is to keep this project free for the small but extraordinary groups worldwide that work tirelessly to make the world a better place. In order to achieve their goals – and to stay safe – these groups require security, hardware, hosting, detailed base maps, and ongoing technical support - all of which costs money.
  
