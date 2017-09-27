@@ -2,7 +2,7 @@
 layout: blog
 section: blog
 summary:  The people we care about are at risk. Here's how you can help.
-photo: /images/ebola2.jpg
+photo: https://s3-eu-west-1.amazonaws.com/timbyinfo/Ebola_Suits.jpg
 ---
 
 ![Ebola]({{ site.baseurl }}/images/ebola2.jpg) As many of you know, we’ve been working in Liberia for a few years. The people we care about are at risk. Their friends, their families, their jobs are all at risk. The future of the country is at risk.
